@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consulta de IP - API</title>
+  <link rel="stylesheet" href="css/all.css">
+</head>
+<body>
+
+  <h1>Consulta de IP - API</h1>
+
+  <form id="ipForm">
+    <input type="text" id="ipInput" placeholder="Digite o endereço IP">
+    <button type="submit">Buscar</button>
+  </form>
+
+  <table>
+    <thead>
+      <tr>
+        <th>Endereço IP</th>
+        <th>Organização</th>
+        <th>País</th>
+        <th>Cidade</th>
+        <th>Ações</th>
+      </tr>
+    </thead>
+    <tbody id="ipTableBody"></tbody>
+  </table>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
